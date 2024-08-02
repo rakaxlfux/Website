@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda Motorcycles</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="bg-red-600 text-white p-4">
+        <nav class="flex justify-between items-center container mx-auto">
+            <a href="index.html" class="text-2xl font-bold">Honda Motorcycles</a>
+            <div class="space-x-4">
+                <a href="index.html" class="hover:text-gray-300">Home</a>
+                <a href="about.html" class="hover:text-gray-300">About</a>
+                <a href="products.html" class="hover:text-gray-300">Products</a>
+                <a href="contact.html" class="hover:text-gray-300">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero bg-cover bg-center h-screen" style="background-image: url('images/hero.jpg');">
+            <div class="container mx-auto text-center h-full flex flex-col justify-center items-center">
+                <h1 class="text-5xl font-bold text-white">Experience the Thrill</h1>
+                <p class="text-xl text-white mt-4">Discover Honda's Latest Motorcycles</p>
+                <a href="products.html" class="mt-6 px-8 py-4 bg-red-700 text-white rounded-full">Explore Models</a>
+            </div>
+        </section>
+
+        <section class="featured-motorcycles py-16 bg-gray-100">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-8">Featured Motorcycles</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Repeat this block for each motorcycle -->
+                    <div class="motorcycle bg-white p-6 rounded-lg shadow-lg">
+                        <img src="images/motorcycle1.jpg" alt="Motorcycle 1" class="mb-4">
+                        <h3 class="text-xl font-bold">Model Name</h3>
+                        <p class="mt-2">Brief description of the motorcycle.</p>
+                        <a href="#" class="mt-4 inline-block text-red-600 hover:underline">Learn More</a>
+                    </div>
+                    <!-- ... -->
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-news py-16">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-8">Latest News</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Repeat this block for each news item -->
+                    <div class="news-item bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold">News Title</h3>
+                        <p class="mt-2">Summary of the news item.</p>
+                        <a href="#" class="mt-4 inline-block text-red-600 hover:underline">Read More</a>
+                    </div>
+                    <!-- ... -->
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials py-16 bg-gray-100">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-8">Customer Testimonials</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Repeat this block for each testimonial -->
+                    <div class="testimonial bg-white p-6 rounded-lg shadow-lg">
+                        <p class="mb-4">"Testimonial text from a satisfied customer."</p>
+                        <h3 class="text-xl font-bold">Customer Name</h3>
+                    </div>
+                    <!-- ... -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Honda Motorcycles. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+              </html>
+                
